@@ -1,0 +1,72 @@
+main {
+ font-size: 20px;
+  text-align: center;
+  color: #2b49b6;
+  border: 6px solid #17999b;
+  padding: 5px;
+  margin: 30px;
+
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+ color: #c4ac12;
+  background-color: #0c4f50;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #cccccc;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+
+input,
+select {
+  height: 24px;
+}
+
+
+input,
+select,
+output,
+textarea {
+  width: 95%;
+  margin: 0 0 10px 0;
+  padding: 2px 5px;
+
+  vertical-align: middle;
+color: #af5c0d;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+
+
+select[multiple] {
+  height: 100px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0 5px;
+  padding: 6px 15px;
+
+  color: #ffffff;
+
+  background-color: #342989;
+  border: none;
+  border-radius: 5px;
+}
